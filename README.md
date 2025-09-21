@@ -1,6 +1,6 @@
 <p align="left">👋 Hello, I'm Romy Patel!</p>
 <img align="right" width="250" src="https://github.com/RomyPatel/RomyPatel/blob/main/profile_.gif">
-<p align="left">I have over four years of experience in designing high-throughput applications, implementing secure and high-performance microservices and building analytics dashboards.</p>
+<p align="left">I am a software developer with over four years of experience in designing high-throughput applications, implementing secure and high-performance microservices and building analytics dashboards. </p>
 <p align="left"> 💻 Tech Stack: </p>
 <p align="left">
 <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=java&logoColor=white" />
