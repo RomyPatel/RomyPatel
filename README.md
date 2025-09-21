@@ -17,4 +17,4 @@
 <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=flat&logo=mysql&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=color" />
 </p>
-<p align="left>Besides tech my interest lies in [solving Advanced Mathematical problems](https://github.com/RomyPatel/cool-math-stuff) and visual art.</p>
+<p align="left"> Besides tech, I spend time [solving advanced mathematical problems](https://github.com/RomyPatel/cool-math-stuff), creating digital art and playing badminton.</p>
