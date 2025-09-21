@@ -14,7 +14,8 @@
 <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=flat&logo=spring&logoColor=white"/>
 <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white"/>
 <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/mysql-%2300f.svg?style=flat&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=color" />
+<img src="https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" />
 </p>
-Besides tech, I spend time [solving advanced mathematical problems](https://github.com/RomyPatel/cool-math-stuff), creating digital art and playing badminton.
+
+In addition to tech, I enjoy [solving advanced mathematical problems](https://github.com/RomyPatel/cool-math-stuff), creating digital art and playing badminton.
