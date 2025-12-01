@@ -19,3 +19,17 @@
 </p>
 
 In addition to tech, I enjoy [solving advanced mathematical problems](https://github.com/RomyPatel/cool-math-stuff), creating digital art and playing badminton.
+
+
+# 🎨 Paint Game
+
+This board updates whenever someone opens an Issue.
+
+Use this template:
+
+\`\`\`
+userId: yourname
+x: 12
+y: 5
+action: draw
+\`\`\`
