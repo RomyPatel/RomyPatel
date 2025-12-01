@@ -1,0 +1,41 @@
+name: "Paint Game"
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Parse issue body
+      id: parser
+      run: |
+        BODY=$(cat << 'EOF'
+        ${{ github.event.issue.body }}
+        EOF
+        )
+        USER_ID=$(echo "$BODY" | grep -i 'userId' | awk -F ':' '{print $2}' | xargs)
+        X=$(echo "$BODY" | grep -i 'x:' | awk -F ':' '{print $2}' | xargs)
+        Y=$(echo "$BODY" | grep -i 'y:' | awk -F ':' '{print $2}' | xargs)
+
+        echo "USER_ID=$USER_ID" >> $GITHUB_ENV
+        echo "X=$X" >> $GITHUB_ENV
+        echo "Y=$Y" >> $GITHUB_ENV
+
+    - name: Append stroke to CSV
+      run: |
+        echo "${USER_ID},${X},${Y}" >> data/strokes.csv
+
+    - name: Generate ASCII board
+      run: |
+        python3 scripts/generate_board.py > README.md
+
+    - name: Commit and push
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Update painting grid"
